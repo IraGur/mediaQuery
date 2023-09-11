@@ -44,7 +44,7 @@ body {
     background-color: chocolate;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1440px) {
   .c {
     display: none;
   }
@@ -53,5 +53,16 @@ body {
   }
   body {
     background-color: cadetblue;
+  }
+}
+@media (min-width: 1920px) {
+  .d {
+    display: none;
+  }
+  .e {
+    display: initial;
+  }
+  body {
+    background-color: cornflowerblue;
   }
 }
