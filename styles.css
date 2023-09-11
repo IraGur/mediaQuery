@@ -1,1 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  max-width: 1920px;
+  margin: 0;
+  padding: 0;
+}
+.b,
+.c,
+.d,
+.e {
+  display: none;
+}
+@media (max-width: 768px) {
+  .a {
+    display: initial;
+  }
+  body {
+    background-color: gold;
+  }
+}
 
+@media (min-width: 768px) {
+  .a {
+    display: none;
+  }
+  .b {
+    display: initial;
+  }
+  body {
+    background-color: pink;
+  }
+}
+@media (min-width: 1280px) {
+  .b {
+    display: none;
+  }
+  .c {
+    display: initial;
+  }
+  body {
+    background-color: chocolate;
+  }
+}
+@media (min-width: 1920px) {
+  .c {
+    display: none;
+  }
+  .d {
+    display: initial;
+  }
+  body {
+    background-color: cadetblue;
+  }
+}
